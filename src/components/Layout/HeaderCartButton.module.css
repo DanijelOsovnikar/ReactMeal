@@ -1,0 +1,30 @@
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  outline: none;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.854);
+  cursor: pointer;
+}
+
+.text {
+  margin: 0 15px;
+  font-size: 1rem;
+}
+.bagde {
+  font-size: 1rem;
+  background-color: #d02c30;
+  color: white;
+  border-radius: 20px;
+  width: 2rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
