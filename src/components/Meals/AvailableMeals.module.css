@@ -1,0 +1,9 @@
+.availableMeals {
+  width: 60%;
+}
+
+@media screen and (max-width: 728px) {
+  .availableMeals {
+    margin: 3rem 0 0 0;
+  }
+}

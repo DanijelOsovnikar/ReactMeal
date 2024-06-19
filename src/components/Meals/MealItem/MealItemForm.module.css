@@ -1,0 +1,14 @@
+.buttonAdd {
+  padding: 0.3rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #d02c30;
+  color: white;
+  margin: 10px 0 0 0;
+  width: 100%;
+  font-weight: bold;
+}
+
+.buttonAdd:hover {
+  cursor: pointer;
+}
