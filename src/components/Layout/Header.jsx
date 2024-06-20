@@ -8,7 +8,7 @@ export default function Header(props) {
       <header className={classes.header}>
         <nav className={classes.nav}>
           <h1>ReactMeals</h1>
-          <HeaderCartButton />
+          <HeaderCartButton onClick={props.onShowCart} />
         </nav>
       </header>
       <div className={classes["main-image"]}>
