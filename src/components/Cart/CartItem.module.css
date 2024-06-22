@@ -49,6 +49,7 @@
   width: 3rem;
   margin: 0 0 0 10px;
   outline: none;
+  color: black;
 }
 
 .actions button:hover {
