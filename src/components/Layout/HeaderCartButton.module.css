@@ -50,3 +50,12 @@
     transform: scale(1);
   }
 }
+
+@media screen and (max-width: 450px) {
+  .text {
+    display: none;
+  }
+  .bagde {
+    margin: 0 0 0 1rem;
+  }
+}

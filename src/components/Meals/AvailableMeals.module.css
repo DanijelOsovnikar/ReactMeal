@@ -1,9 +1,38 @@
 .availableMeals {
   width: 60%;
+  margin: -1.3rem 0 2rem 0;
 }
 
-@media screen and (max-width: 728px) {
+.availableMeals ul {
+  padding: unset;
+}
+
+@media screen and (max-width: 900px) {
   .availableMeals {
-    margin: 3rem 0 0 0;
+    width: calc(100% - 40px);
+    margin: 0 0 2rem 0;
+  }
+}
+
+@media screen and (max-width: 621px) {
+  .availableMeals {
+    margin: 3.2rem 0 2rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  .availableMeals {
+    margin: 4.4rem 0 2rem 0;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .availableMeals {
+    margin: 5.7rem 0 2rem 0;
+  }
+}
+
+@media screen and (max-width: 403px) {
+  .availableMeals {
+    margin: 7rem 0 2rem 0;
   }
 }
