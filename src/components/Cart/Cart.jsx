@@ -19,6 +19,10 @@ export default function Cart(props) {
     cartCtx.removeItem(id);
   };
 
+  const onClickOrder = () => {
+    console.log("Order sent...");
+  };
+
   const cartItem = (
     <ul className={classes.cart}>
       {cartCtx.items.map((item) => (
@@ -45,7 +49,11 @@ export default function Cart(props) {
         <button className={classes["buttonAlt"]} onClick={props.onHideCart}>
           Close
         </button>
-        {hasItems && <button className={classes.button}>Order</button>}
+        {hasItems && (
+          <button className={classes.button} onClick={onClickOrder}>
+            Order
+          </button>
+        )}
       </div>
     </Modal>
   );

@@ -1,4 +1,4 @@
-import mealsImg from "../../assets/pexels-ella-olsson-572949-1640774.jpg";
+import mealsImg from "../../../public/pexels-ella-olsson-572949-1640774.jpg";
 import classes from "./Header.module.css";
 import HeaderCartButton from "./HeaderCartButton";
 
